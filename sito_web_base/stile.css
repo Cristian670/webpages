@@ -1,0 +1,169 @@
+header {
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+}
+
+nav {
+    width: 920px;
+    height: 50px;
+    color: rgb(132, 0, 255);
+    margin-left: 330px;
+    margin-right: 330px;
+    margin-top: -140px;
+    font-size: 24px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+body {
+    background-image:url(immagini/cool-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main {
+    background-color: rgba(96, 20, 196, 0);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    height: 55px;
+    width: 900px;
+    margin-left: 330px;
+    margin-right: 330px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main p {
+    color: azure;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    margin: 0px;
+    text-align: center;
+    font-family: "Impact", sans-serif;
+    font-size: large;
+}
+
+
+.interactive-link {
+    text-decoration: none; /* Rimuove la sottolineatura predefinita */
+    color: #333; /* Colore del testo normale */
+    padding: 10px 45px; /* Padding per dimensioni e spaziatura */
+    border: 1px solid #007bff; /* Aggiunge un bordo */
+    background-color: transparent; /* Sfondo trasparente di default */
+    transition: background-color 0.3s ease-in-out; /* Transizione per il colore di sfondo */
+    display: inline-block;
+}
+
+/* Stile del link quando ci passi sopra con il mouse */
+.interactive-link:hover {
+    background-color: rgba(0, 123, 255, 0.3); /* Sfondo blu trasparente al passaggio del mouse */
+    color: #fff; /* Cambia il colore del testo al passaggio del mouse */
+}
+
+
+
+footer {
+    background-color: rgba(240, 248, 255, 0);
+    width: 1550px;
+    height: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+
+}
+
+
+/* style.css */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    margin: 10px;
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100%); /* Inizialmente in bianco e nero */
+    transition: filter 0.5s;
+    border-radius: 50px;
+}
+
+.image:hover img {
+    filter: grayscale(0%); /* Al passaggio del mouse tornano a colori */
+    transition: filter 0.5s;
+}
+
+
+footer p {
+    font-size: 24px;
+}
+
+
+/* Stile per il modulo di iscrizione alla newsletter */
+.newsletter-form {
+    background-color: #452cd100;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.newsletter-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.newsletter-input {
+    width: auto;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.newsletter-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.newsletter-button:hover {
+    background-color: #0056b3;
+}
+
+section {
+    margin-top: -100px;
+    width: 900px;
+    height: 100px;
+    margin-right: 400px;
+    margin-right: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+section p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
