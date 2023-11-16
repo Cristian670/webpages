@@ -1,0 +1,166 @@
+.html {
+    height: 100%;
+}
+
+header {
+    height: 118px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.555);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 24px;
+}
+
+main {
+    height: 180px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    height: 80px;
+    width: 960px;
+    margin-top: 225px;
+    padding-top: 20px;
+}
+
+.container {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+body {
+    background-color: chartreuse;
+    background-image:url(immagini/side-view-mix-sushi-rolls-tray-with-ginger-wasabi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-size: 100px;
+    color: orangered;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font: small-caps;
+}
+
+p {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a {
+    color: rgb(71, 69, 69);
+    font-family: Arial, Helvetica, sans-serif;
+    /*text-decoration: none;*/
+    font-size: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    /*si poteva anche fare .no-underline: 
+    {text-decoration: none;} e richiamarla
+    nelle stanghette di ciascun elemento a*/
+    font-size: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.sfondo-trasparente {
+    background-color: rgba(71, 64, 64, 0.603); /* Bianco con trasparenza del 50% */
+    border-radius: 40px;
+    padding: 10px; /* Aggiungi spazio intorno al testo, se necessario */
+  }
+
+.grassetto-ombra {
+    text-shadow: rgba(71, 64, 64, 0.603);
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 20px;
+    text-align: center;
+    color: blacks;
+}
+
+.spazio-maps {
+    padding-top: 200px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+header {
+    padding-bottom: 5px;
+    margin-top: auto;
+}
+
+.verticale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.vertical-line {
+    width: 2px; /* Larghezza della linea */
+    height: 0; /* Altezza iniziale */
+    background-color: #00f; /* Colore della linea */
+    position: relative;
+    animation: animateLine 2s linear infinite;
+}
+
+@keyframes animateLine {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 100%; /* Altezza massima (al di sotto della viewport) */
+    }
+}
